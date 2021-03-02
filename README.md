@@ -1,4 +1,4 @@
-# **Election_Analysis
+# Election Analysis
 ## Overview
 
 The purpose of the election audit was to confirm the winner based on popular vote. To acvhieve a sucessful audit I had to :
