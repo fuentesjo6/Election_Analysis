@@ -1,7 +1,7 @@
 # Election Analysis
 ## Overview
 
-The purpose of the election audit was to confirm the winner based on popular vote. To acvhieve a sucessful audit I had to :
+The purpose of the election audit was to confirm the winner based on popular vote. To achieve a sucessful audit I had to :
 - Caluclate how many votes were cast in the congressiona election.
 - Breakdown the votes and percentages of total votes for each county in the precint.
 - Calculate which county had the largest number of votes.
