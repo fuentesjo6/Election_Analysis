@@ -30,12 +30,13 @@ The results of the analysis showed:
 
 Based on popular vote the winner of the election was Diana DeGette with a total of 272,892 votes cast good for 73.8% of the total vote.
 
-![](Election_Results.png) 
+![](Election_Results.png)
+
 
 
 ## Election Audit Summary
 
-The script that was created can be modified to be used for any election by making a few changes to the way we add the files to load. If we change the script to read input() to replace the original syntax of open(). By making this change it will yield an output on terminal what the location for the file is. This will allow 
+The script that was created can be modified to be used for any election by making a few changes to the way we add the files to load. If we change the script to read input() to replace the original syntax of open(). By making this change it will yield an output on terminal what the location for the file is. This will allow the user to select the file and add it to the terminal making the usage of data easier to be used by anyone not just the person writting the code. 
 
 
 
