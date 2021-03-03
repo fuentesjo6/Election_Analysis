@@ -8,7 +8,11 @@ The purpose of the election audit was to confirm the winner based on popular vot
 - Breakdown the votes and percetages of the total votes each candidate received.
 - Calculate the winner of the election, what their vote count was, and what their percentage of total votes was.
 
-##
+## Summary
+
+The results of the analysis showed:
+
+-
 
 
 python language with Visual studio code
