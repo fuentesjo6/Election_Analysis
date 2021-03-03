@@ -12,7 +12,8 @@ The purpose of the election audit was to confirm the winner based on popular vot
 
 The results of the analysis showed:
 
--
+![](Election_Results.png) 
+
 
 
 python language with Visual studio code
