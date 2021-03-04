@@ -36,7 +36,7 @@ Based on popular vote the winner of the election was Diana DeGette with a total 
 
 ## Election Audit Summary
 
-The script that was created can be modified to be used for any election by making a few changes to the way we add the files to load. If we change the script to read input() to replace the original syntax of open(). By making this change it will yield an output on terminal what the location for the file is. This will allow the user to select the file and add it to the terminal making the usage of data easier to be used by anyone not just the person writting the code. 
+The script that was created can be modified to be used for any election by making a few changes to the way we add the files to load. If we change the script to read input() to replace the original syntax of open(). By making this change it will yield an output on terminal what the location for the file is. This will allow the user to select the file and add it to the terminal making the usage of data easier to be used by anyone not just the person writting the code. We can also refactor the with() syntax in our original code and use the my_function() and it would work similiar to what we did in the first change. Making these changes would still allow us to use the same script but with more user control.
 
 
 
