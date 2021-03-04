@@ -1,7 +1,5 @@
 # -*- coding: UTF-8 -*-
 """PyPoll Homework Challenge Solution."""
-
-# Add our dependencies.
 import csv
 import os
 
@@ -90,30 +88,23 @@ with open(file_to_save, "w") as txt_file:
     print(election_results, end="")
 
     txt_file.write(election_results)
-
     # 6a: Write a for loop to get the county from the county dictionary.
     for county in county_list:
         
         # 6b: Retrieve the county vote count.
         vote = county_votes[county]
-
         # 6c: Calculate the percentage of votes for the county.
         voting_percentage = float(vote) / float(total_votes) * 100
-
          # 6d: Print the county results to the terminal.
         county_results = (f"{county}: {voting_percentage:.1f}% ({vote:,})\n")
 
         print(county_results)
-    
          # 6e: Save the county votes to a text file.
-
         txt_file.write(county_results)
-
          # 6f: Write an if statement to determine the winning county and get its vote count.
         if (vote > turnout):
              turnout = vote
              largest_county = county
-
     # 7: Print the county with the largest turnout to the terminal.
     winning_county_summary = (
         f"-------------------------\n"
